@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0;URL='/#/404'">
+    <script type="text/javascript">
+        setTimeout(function() {
+            window.location.href = "/#/" + location.pathname.substr(1);
+        }, 0);
+    </script>
     <title>Redirecionando...</title>
 </head>
 <body>
-<script>
-    // Redireciona os usuários para index.html
-    // preservando o caminho da URL
-    window.location.href = '/index.html' + window.location.pathname + window.location.search;
-</script>
+
 </body>
 </html>
