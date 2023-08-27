@@ -1,4 +1,4 @@
-var Ru=Object.defineProperty;var Ou=(at,it,lt)=>it in at?Ru(at,it,{enumerable:!0,configurable:!0,writable:!0,value:lt}):at[it]=lt;var ku=(at,it)=>()=>(it||at((it={exports:{}}).exports,it),it.exports);var $n=(at,it,lt)=>(Ou(at,typeof it!="symbol"?it+"":it,lt),lt),zo=(at,it,lt)=>{if(!it.has(at))throw TypeError("Cannot "+lt)};var Jt=(at,it,lt)=>(zo(at,it,"read from private field"),lt?lt.call(at):it.get(at)),kr=(at,it,lt)=>{if(it.has(at))throw TypeError("Cannot add the same private member more than once");it instanceof WeakSet?it.add(at):it.set(at,lt)},Wr=(at,it,lt,ut)=>(zo(at,it,"write to private field"),ut?ut.call(at,lt):it.set(at,lt),lt);var ko=(at,it,lt,ut)=>({set _(ct){Wr(at,it,ct,lt)},get _(){return Jt(at,it,ut)}}),Mr=(at,it,lt)=>(zo(at,it,"access private method"),lt);var Iu=ku((exports,module)=>{(function(){try{var at=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},it=new Error().stack;it&&(at._sentryDebugIds=at._sentryDebugIds||{},at._sentryDebugIds[it]="d23daf31-4765-4a7f-b96b-d1cde416a00e",at._sentryDebugIdIdentifier="sentry-dbid-d23daf31-4765-4a7f-b96b-d1cde416a00e")}catch{}})();function _mergeNamespaces(at,it){for(var lt=0;lt<it.length;lt++){const ut=it[lt];if(typeof ut!="string"&&!Array.isArray(ut)){for(const ct in ut)if(ct!=="default"&&!(ct in at)){const dt=Object.getOwnPropertyDescriptor(ut,ct);dt&&Object.defineProperty(at,ct,dt.get?dt:{enumerable:!0,get:()=>ut[ct]})}}}return Object.freeze(Object.defineProperty(at,Symbol.toStringTag,{value:"Module"}))}(function(){const it=document.createElement("link").relList;if(it&&it.supports&&it.supports("modulepreload"))return;for(const ct of document.querySelectorAll('link[rel="modulepreload"]'))ut(ct);new MutationObserver(ct=>{for(const dt of ct)if(dt.type==="childList")for(const ft of dt.addedNodes)ft.tagName==="LINK"&&ft.rel==="modulepreload"&&ut(ft)}).observe(document,{childList:!0,subtree:!0});function lt(ct){const dt={};return ct.integrity&&(dt.integrity=ct.integrity),ct.referrerPolicy&&(dt.referrerPolicy=ct.referrerPolicy),ct.crossOrigin==="use-credentials"?dt.credentials="include":ct.crossOrigin==="anonymous"?dt.credentials="omit":dt.credentials="same-origin",dt}function ut(ct){if(ct.ep)return;ct.ep=!0;const dt=lt(ct);fetch(ct.href,dt)}})();var _global$1=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};_global$1.SENTRY_RELEASE={id:"809fc075528dea209d135206de26ff2fb01f8bf4"};var commonjsGlobal=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function getDefaultExportFromCjs(at){return at&&at.__esModule&&Object.prototype.hasOwnProperty.call(at,"default")?at.default:at}function getAugmentedNamespace(at){if(at.__esModule)return at;var it=at.default;if(typeof it=="function"){var lt=function ut(){return this instanceof ut?Reflect.construct(it,arguments,this.constructor):it.apply(this,arguments)};lt.prototype=it.prototype}else lt={};return Object.defineProperty(lt,"__esModule",{value:!0}),Object.keys(at).forEach(function(ut){var ct=Object.getOwnPropertyDescriptor(at,ut);Object.defineProperty(lt,ut,ct.get?ct:{enumerable:!0,get:function(){return at[ut]}})}),lt}var jsxRuntime={exports:{}},reactJsxRuntime_production_min={},react={exports:{}},react_production_min={};/**
+var Ru=Object.defineProperty;var Ou=(at,it,lt)=>it in at?Ru(at,it,{enumerable:!0,configurable:!0,writable:!0,value:lt}):at[it]=lt;var ku=(at,it)=>()=>(it||at((it={exports:{}}).exports,it),it.exports);var $n=(at,it,lt)=>(Ou(at,typeof it!="symbol"?it+"":it,lt),lt),zo=(at,it,lt)=>{if(!it.has(at))throw TypeError("Cannot "+lt)};var Jt=(at,it,lt)=>(zo(at,it,"read from private field"),lt?lt.call(at):it.get(at)),kr=(at,it,lt)=>{if(it.has(at))throw TypeError("Cannot add the same private member more than once");it instanceof WeakSet?it.add(at):it.set(at,lt)},Wr=(at,it,lt,ut)=>(zo(at,it,"write to private field"),ut?ut.call(at,lt):it.set(at,lt),lt);var ko=(at,it,lt,ut)=>({set _(ct){Wr(at,it,ct,lt)},get _(){return Jt(at,it,ut)}}),Mr=(at,it,lt)=>(zo(at,it,"access private method"),lt);var Iu=ku((exports,module)=>{(function(){try{var at=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},it=new Error().stack;it&&(at._sentryDebugIds=at._sentryDebugIds||{},at._sentryDebugIds[it]="2e27b4d8-1775-4140-ab60-0157dc053129",at._sentryDebugIdIdentifier="sentry-dbid-2e27b4d8-1775-4140-ab60-0157dc053129")}catch{}})();function _mergeNamespaces(at,it){for(var lt=0;lt<it.length;lt++){const ut=it[lt];if(typeof ut!="string"&&!Array.isArray(ut)){for(const ct in ut)if(ct!=="default"&&!(ct in at)){const dt=Object.getOwnPropertyDescriptor(ut,ct);dt&&Object.defineProperty(at,ct,dt.get?dt:{enumerable:!0,get:()=>ut[ct]})}}}return Object.freeze(Object.defineProperty(at,Symbol.toStringTag,{value:"Module"}))}(function(){const it=document.createElement("link").relList;if(it&&it.supports&&it.supports("modulepreload"))return;for(const ct of document.querySelectorAll('link[rel="modulepreload"]'))ut(ct);new MutationObserver(ct=>{for(const dt of ct)if(dt.type==="childList")for(const ft of dt.addedNodes)ft.tagName==="LINK"&&ft.rel==="modulepreload"&&ut(ft)}).observe(document,{childList:!0,subtree:!0});function lt(ct){const dt={};return ct.integrity&&(dt.integrity=ct.integrity),ct.referrerPolicy&&(dt.referrerPolicy=ct.referrerPolicy),ct.crossOrigin==="use-credentials"?dt.credentials="include":ct.crossOrigin==="anonymous"?dt.credentials="omit":dt.credentials="same-origin",dt}function ut(ct){if(ct.ep)return;ct.ep=!0;const dt=lt(ct);fetch(ct.href,dt)}})();var _global$1=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};_global$1.SENTRY_RELEASE={id:"a7e23b22046c2a28720f2c3aa2a6874961f85428"};var commonjsGlobal=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function getDefaultExportFromCjs(at){return at&&at.__esModule&&Object.prototype.hasOwnProperty.call(at,"default")?at.default:at}function getAugmentedNamespace(at){if(at.__esModule)return at;var it=at.default;if(typeof it=="function"){var lt=function ut(){return this instanceof ut?Reflect.construct(it,arguments,this.constructor):it.apply(this,arguments)};lt.prototype=it.prototype}else lt={};return Object.defineProperty(lt,"__esModule",{value:!0}),Object.keys(at).forEach(function(ut){var ct=Object.getOwnPropertyDescriptor(at,ut);Object.defineProperty(lt,ut,ct.get?ct:{enumerable:!0,get:function(){return at[ut]}})}),lt}var jsxRuntime={exports:{}},reactJsxRuntime_production_min={},react={exports:{}},react_production_min={};/**
  * @license React
  * react.production.min.js
  *
@@ -333,18 +333,28 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   /* Estilos padrão */
   width: 100%;
   width: 510px; // Exemplo de largura máxima
-  height: 300px; // Pode ser ajustado conforme necessário
+  height: 360px; // Pode ser ajustado conforme necessário
+
+  @media screen and (min-width: 1024px) {
+    .descricao-limited {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%; /* Ou qualquer outro valor que você queira especificar */
+    }
+  }
 
   @media screen and (max-width: 1024px) {
     width: 80%;
     max-width: 600px; // Exemplo de largura máxima para este breakpoint
     // Outros estilos específicos para essa faixa de tamanho
+    height: 100%;
   }
 
   @media screen and (max-width: 768px) {
     width: 90%;
     max-width: 500px; // Exemplo de largura máxima para este breakpoint
-    // Outros estilos específicos para essa faixa de tamanho
+    height: 100%;
     .p-carousel-items-content .carosel-aulas {
       width: 20em;
     }
@@ -353,13 +363,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   @media screen and (max-width: 600px) {
     width: 90%;
     max-width: 400px; // Exemplo de largura máxima para este breakpoint
-    // Outros estilos específicos para essa faixa de tamanho
+    height: auto;
     .p-carousel-items-content .carosel-aulas {
       width: 18em;
     }
   }
 
   @media screen and (max-width: 480px) {
+    height: auto;
     width: 100%;
     max-width: 13em;
   }
@@ -400,7 +411,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
 `,StyledImage=st(Image)`
   max-width: 100%;
-  max-height: 150px;
+  height: 130px;
   object-fit: cover;
 
   @media only screen and (max-width: 1024px) {
@@ -414,7 +425,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   @media only screen and (max-width: 480px) {
     max-height: 80px;
   }
-`;function ListaAulas(){const at=useSelector(pt=>pt.inscricao.inscricoes),it=useDispatch(),lt=useSelector(pt=>pt.inscricao.error),ut=reactExports.useRef(null),ct=useNavigate();reactExports.useEffect(()=>{it(buscarAulasPorAluno({tamanho:10,pagina:0}))},[it]),reactExports.useEffect(()=>{lt&&ut.current&&ut.current.show({severity:"error",summary:lt,life:3e3})},[lt]);const dt=pt=>{ct(`/aula/${pt}`)},ft=pt=>jsxRuntimeExports.jsxs(ListaAulasStyle,{className:"border-1 surface-border border-round m-1 sm:m-2 text-center py-3 sm:py-5 px-1 sm:px-3",children:[jsxRuntimeExports.jsx("div",{className:"mb-3",children:jsxRuntimeExports.jsx(StyledImage,{src:pt.inscricao.aula.url,alt:pt.inscricao.aula.titulo,preview:!0,width:50})}),jsxRuntimeExports.jsxs("div",{children:[jsxRuntimeExports.jsx("h4",{className:"mb-1",children:pt.inscricao.aula.titulo}),jsxRuntimeExports.jsx("h6",{className:"mt-0 mb-3",children:"Ariane Ribeiro Lage"}),jsxRuntimeExports.jsx("p",{className:"descricao-limited p-m-0",children:pt.inscricao.aula.descricao.length>100?pt.inscricao.aula.descricao.substring(0,97)+"...":pt.inscricao.aula.descricao}),pt.inscricao.aula.videoUrl&&jsxRuntimeExports.jsx("video",{controls:!0,width:"100%",src:pt.inscricao.aula.videoUrl}),jsxRuntimeExports.jsx("div",{className:"mt-5 flex flex-wrap gap-2 justify-content-center",children:jsxRuntimeExports.jsx(Button,{label:"Assistir",icon:"pi pi-play",className:"p-button-success p-button-rounded",onClick:()=>dt(pt.inscricao.aula.uuid)})})]})]});return jsxRuntimeExports.jsxs(CarouselAula,{children:[jsxRuntimeExports.jsx(Toast,{ref:ut}),at&&at.resultados&&at.resultados.length>0?jsxRuntimeExports.jsx(Carousel,{value:at.resultados,itemTemplate:ft,style:{maxWidth:"100%"},className:"carosel-aulas",numVisible:3,numScroll:1,responsiveOptions:[{breakpoint:"1024px",numVisible:3,numScroll:1,maxWidth:"600px"},{breakpoint:"600px",numVisible:1,numScroll:1,maxWidth:"400px"},{breakpoint:"480px",numVisible:1,numScroll:1,maxWidth:"300px"}]}):""]})}const StyledContent=st(Card)`
+`;function ListaAulas(){const at=useSelector(pt=>pt.inscricao.inscricoes),it=useDispatch(),lt=useSelector(pt=>pt.inscricao.error),ut=reactExports.useRef(null),ct=useNavigate();reactExports.useEffect(()=>{it(buscarAulasPorAluno({tamanho:10,pagina:0}))},[it]),reactExports.useEffect(()=>{lt&&ut.current&&ut.current.show({severity:"error",summary:lt,life:3e3})},[lt]);const dt=pt=>{ct(`/aula/${pt}`)},ft=pt=>{const ht=`descricao-limited-${pt.inscricao.aula.uuid}`;return jsxRuntimeExports.jsxs(ListaAulasStyle,{className:"border-1 surface-border border-round m-1 sm:m-2 text-center py-3 sm:py-5 px-1 sm:px-3 flex justify-content-between flex-column",children:[jsxRuntimeExports.jsx("div",{className:"mb-3",children:jsxRuntimeExports.jsx(StyledImage,{src:pt.inscricao.aula.url,alt:pt.inscricao.aula.titulo,preview:!0,width:120})}),jsxRuntimeExports.jsxs("div",{children:[jsxRuntimeExports.jsx("h4",{className:"mb-1",children:pt.inscricao.aula.titulo}),jsxRuntimeExports.jsx("h6",{className:"mt-0 mb-3",children:"Ariane Ribeiro Lage"}),jsxRuntimeExports.jsx("p",{id:ht,className:"descricao-limited p-m-0",children:pt.inscricao.aula.descricao.length>100?pt.inscricao.aula.descricao.substring(0,97)+"...":pt.inscricao.aula.descricao}),jsxRuntimeExports.jsx(Tooltip,{target:`#${ht}`,mouseTrack:!0,mouseTrackTop:15,content:pt.inscricao.aula.descricao}),pt.inscricao.aula.videoUrl&&jsxRuntimeExports.jsx("video",{controls:!0,width:"100%",src:pt.inscricao.aula.videoUrl}),jsxRuntimeExports.jsx("div",{className:"mt-5 flex flex-wrap gap-2 justify-content-center",children:jsxRuntimeExports.jsx(Button,{label:"Assistir",icon:"pi pi-play",className:"p-button-success p-button-rounded",onClick:()=>dt(pt.inscricao.aula.uuid)})})]})]})};return jsxRuntimeExports.jsxs(CarouselAula,{children:[jsxRuntimeExports.jsx(Toast,{ref:ut}),at&&at.resultados&&at.resultados.length>0?jsxRuntimeExports.jsx(Carousel,{value:at.resultados,itemTemplate:ft,style:{maxWidth:"100%"},className:"carosel-aulas",numVisible:3,numScroll:1,responsiveOptions:[{breakpoint:"1024px",numVisible:3,numScroll:1,maxWidth:"600px"},{breakpoint:"600px",numVisible:1,numScroll:1,maxWidth:"400px"},{breakpoint:"480px",numVisible:1,numScroll:1,maxWidth:"300px"}]}):""]})}const StyledContent=st(Card)`
   padding: 0.5em;
   max-width: 100%;
   @media (min-width: 768px) {
