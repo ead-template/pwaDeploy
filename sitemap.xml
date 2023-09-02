@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://ariflix.app.br/</loc>
+    </url>
+    <url>
+        <loc>https://ariflix.app.br/#/login</loc>
+    </url>
+    <url>
+        <loc>https://ariflix.app.br/#/register</loc>
+    </url>
+    <url>
+        <loc>https://ariflix.app.br/#/account-recovery</loc>
+    </url>
+    <url>
+        <loc>https://ariflix.app.br/#/reset-password</loc>
+    </url>
+    <url>
+        <loc>https://ariflix.app.br/#/aula</loc>
+    </url>
+    <url>
+        <loc>https://ariflix.app.br/#/perfil</loc>
+    </url>
+</urlset>
