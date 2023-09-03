@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+Remove the "lastmod" attribute from the <url> tags.
+
+<url>
+    <loc>https://ariflix.app.br/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+</url>
     <url>
-        <loc>https://ariflix.app.br/</loc>
-    </url>
+    <loc>https://ariflix.app.br/#/login</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
     <url>
-        <loc>https://ariflix.app.br/#/login</loc>
-    </url>
+    <loc>https://ariflix.app.br/#/register</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
     <url>
-        <loc>https://ariflix.app.br/#/register</loc>
-    </url>
+    <loc>https://ariflix.app.br/#/account-recovery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
     <url>
-        <loc>https://ariflix.app.br/#/account-recovery</loc>
-    </url>
+    <loc>https://ariflix.app.br/#/reset-password</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
     <url>
-        <loc>https://ariflix.app.br/#/reset-password</loc>
-    </url>
+    <loc>https://ariflix.app.br/#/aula</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
     <url>
-        <loc>https://ariflix.app.br/#/aula</loc>
-    </url>
-    <url>
-        <loc>https://ariflix.app.br/#/perfil</loc>
-    </url>
+    <loc>https://ariflix.app.br/#/perfil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
 </urlset>
